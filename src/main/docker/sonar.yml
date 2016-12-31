@@ -1,0 +1,8 @@
+version: '2'
+services:
+    kemendesapp-sonar:
+        container_name: kemendesapp-sonar
+        image: sonarqube:6.1-alpine
+        ports:
+            - 9000:9000
+            - 9092:9092
